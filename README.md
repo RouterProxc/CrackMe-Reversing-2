@@ -18,3 +18,20 @@
 Выходит что sub_1400026D0 - функция антиотладки.
 
 Теперь проверим что находится в sub_140002270.
+
+<img width="396" height="775" alt="image" src="https://github.com/user-attachments/assets/1bd7720b-8d14-4440-8cac-1d1a5eb15f5e" />
+
+Очень большая структура, изучем внимательнее.
+
+<img width="554" height="575" alt="image" src="https://github.com/user-attachments/assets/9708af74-1af2-4646-bb5c-a553134d4237" />
+
+Одна из двух функций после аргументов и перед выходом из програмы - наш OEP(main).
+Проверяю первую и угадываю.
+
+<img width="957" height="887" alt="image" src="https://github.com/user-attachments/assets/50b901f2-8aa4-4463-bc86-37511a43cedc" />
+
+Дальше идет разветвление
+
+<img width="957" height="72" alt="image" src="https://github.com/user-attachments/assets/9564984c-4fb1-46fe-9c9a-4a07f60e6ee2" />
+
+Функция идущая перед разветвлением и test скорее всего проверяет пароль на валидность
